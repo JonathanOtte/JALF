@@ -16,6 +16,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         anzeige.cpp \
+        lebensmittel.cpp \
         main.cpp
 
 # Default rules for deployment.
@@ -24,4 +25,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    anzeige.h
+    anzeige.h \
+    lebensmittel.h

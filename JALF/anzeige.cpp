@@ -1,9 +1,12 @@
+// Finn Wilden
+
 #include <iostream>
 #include <fstream>
 #include <string>
 
 // Eigene Klassen
 #include "anzeige.h"
+#include "lebensmittel.h"
 
 // Funktionen
 
@@ -18,9 +21,9 @@ bool Anzeige::eingabeUberprufung(int mainM, int secM, int trdM){
             if (trdM >= 0 && trdM < 1){
                 return true;
             }
-        // Lebensmitteluntermenue "1" mit 4 Auswahloptionen
+        // Lebensmitteluntermenue "1" mit 5 Auswahloptionen
         case 2:
-            if (trdM >= 0 && trdM < 4){
+            if (trdM >= 0 && trdM < 5){
                 return true;
             }
         // Essensplanungsmenue "2" mit 4 Auswahloptionen
@@ -43,6 +46,7 @@ bool Anzeige::eingabeUberprufung(int mainM, int secM, int trdM){
             return true;
         }
     }
+    std::cout << "false";
     return false;
 }
 
@@ -77,7 +81,7 @@ void Anzeige::showSecM(int secM){
         // Lebensmittel Menue
         system("cls");
         std::cout << "Sie sind im Lebensmittel Menue. Treffen Sie eine Auswahl:\n" << std::endl;
-        for (int i = 0; i <= 3; i++){
+        for (int i = 0; i <= 4; i++){
             std::cout << this-> auswahlSecM2[i] << "\t";
         }
         std::cout << "\n" << std::endl;
@@ -136,6 +140,10 @@ void Anzeige::showTrdM(int secM, int trdM){
             //getEinkauf(cin);
             std::cout << "\nUm zurueck zu kommen geben Sie die 0 ein!";
             break;
+        case 4:
+            system("cls");
+            std::cout << "(BETA) Ein neues Lebensmittel hinzfuegen (BETA)\n" << std::endl;
+            newLebensmittel();
         }
         break;
     // Planungsmenue "3"

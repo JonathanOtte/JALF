@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.12.0, 2020-06-02T17:13:31. -->
+<!-- Written by QtCreator 4.12.0, 2020-06-05T16:58:11. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -308,8 +308,9 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/USER/OneDrive/TU/2020 SoSe/Informatik/JALF/JALF.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/USER/OneDrive/TU/2020 SoSe/Informatik/JALF/JALF.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">JALF2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/USER/OneDrive/TU/2020 SoSe/Informatik/New folder/pm-api-jalf/JALF/JALF.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/USER/OneDrive/TU/2020 SoSe/Informatik/New folder/pm-api-jalf/JALF/JALF.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>

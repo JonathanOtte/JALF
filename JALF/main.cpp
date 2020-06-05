@@ -4,6 +4,7 @@
 
 // Eigene Klassen
 #include "anzeige.h"
+#include "lebensmittel.h"
 
 //Hauptfunktion
 int main(){
@@ -36,7 +37,7 @@ int main(){
             Anzeige1.showSecM(secM);
             std::cin >> trdM;
             while (!(Anzeige1.eingabeUberprufung(mainM, secM, trdM))){
-                std::cout << "Falsche Eingabe! Bitte erneut eine Auswahl treffen: ";
+                std::cout << "Falsche Eingabe! Bitte erneut eine Auswahl treffen:";
                 std::cin >> trdM;
             }
             if (trdM != 0){
