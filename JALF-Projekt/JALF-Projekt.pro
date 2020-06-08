@@ -17,13 +17,22 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     main.cpp \
-    anzeige.cpp
+    mainwindow.cpp \
+    windowessenspl.cpp \
+    windowlebensm.cpp \
+    windowrezepte.cpp
 
 HEADERS += \
-    anzeige.h
+    mainwindow.h \
+    windowessenspl.h \
+    windowlebensm.h \
+    windowrezepte.h
 
 FORMS += \
-    anzeige.ui
+    mainwindow.ui \
+    windowessenspl.ui \
+    windowlebensm.ui \
+    windowrezepte.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
