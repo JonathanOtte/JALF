@@ -21,32 +21,48 @@ bool Anzeige::eingabeUberprufung(int mainM, int secM, int trdM){
             if (trdM >= 0 && trdM < 1){
                 return true;
             }
+            else {
+                return false;
+            }
+            break;
         // Lebensmitteluntermenue "1" mit 5 Auswahloptionen
         case 2:
             if (trdM >= 0 && trdM < 5){
                 return true;
             }
+            else {
+                return false;
+            }
+            break;
         // Essensplanungsmenue "2" mit 4 Auswahloptionen
         case 3:
             if (trdM >= 0 && trdM < 4){
                 return true;
             }
-            else{
+            else {
                 return false;
             }
+            break;
         // Rezeptuntermenue "3" mit 4 Auswahloptionen
         case 4:
             if (trdM >= 0 && trdM < 4){
                 return true;
             }
+            else {
+                return false;
+            }
+            break;
         }
     // Benutzer ist im Hauptmenue
     case 1:
         if ((secM > 0 && secM < 5) || secM == 9){
             return true;
         }
+        else {
+            return false;
+        }
+        break;
     }
-    std::cout << "false";
     return false;
 }
 
