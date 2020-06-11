@@ -20,6 +20,7 @@ private:
 
 signals:
     void BackClicked();
+
 private slots:
     void on_cmdBack_clicked();
 };
