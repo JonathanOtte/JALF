@@ -1,0 +1,10 @@
+release/lebensmittel.o
+release/main.o
+release/mainwindow.o
+release/windoweinkauf.o
+release/windowlebensmittel.o
+release/windowrezepte.o
+release/moc_mainwindow.o
+release/moc_windoweinkauf.o
+release/moc_windowlebensmittel.o
+release/moc_windowrezepte.o

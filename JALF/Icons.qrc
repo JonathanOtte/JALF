@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Navigationsbuttons">
+        <file>Back-Arrow-Button.png</file>
+        <file>Home-Button.png</file>
+    </qresource>
+</RCC>

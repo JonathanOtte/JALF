@@ -1,0 +1,10 @@
+debug/lebensmittel.o
+debug/main.o
+debug/mainwindow.o
+debug/windoweinkauf.o
+debug/windowlebensmittel.o
+debug/windowrezepte.o
+debug/moc_mainwindow.o
+debug/moc_windoweinkauf.o
+debug/moc_windowlebensmittel.o
+debug/moc_windowrezepte.o
